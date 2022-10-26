@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #e0e8ff;
+  background-image: url("../Imagenes/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Red Hat Display", sans-serif;
+}
+.main {
+  width: 350px;
+  height: 550px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.imagen {
+  background-image: url("../Imagenes/illustration-hero.svg");
+  background-size: contain;
+  height: 30%;
+}
+.texto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 32%;
+  padding: 20px;
+}
+.texto h1 {
+  color: #1f2f56;
+}
+.parrafo {
+  text-align: center;
+  margin-top: 10px;
+  color: #7280a7;
+}
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.plan {
+  font-size: 12px;
+}
+.logo img {
+  margin-right: 15px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.change a {
+  font-size: 12px;
+  color: #3829e0;
+}
+.titulo-plan h3 {
+  color: #1f2f56;
+  font-weight: 900;
+}
+.precio h3 {
+  color: #7280a7;
+  font-weight: 500;
+}
+.botton {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 40px;
+}
+.boton1 {
+  background-color: #3829e0;
+  border: none;
+  color: #e0e8ff;
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  border: 1px solid #3829e0;
+  transition: 0.3s;
+  box-shadow: 0px 0px 5px 0px rgba(44, 47, 145, 0.86);
+}
+.boton2 {
+  border: none;
+  color: #7280a7;
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+.boton1:hover {
+  background-color: transparent;
+  color: #3829e0;
+}
+.boton2:hover {
+  color: #1f2f56;
+}
